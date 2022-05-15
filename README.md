@@ -45,17 +45,17 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Set Up Step
 
 ```bash
-# unit tests
-$ npm run test
+# Step 1 run docker compose
+$ docker compose up -d
 
-# e2e tests
-$ npm run test:e2e
+# Step 2 run migration file
+$ npm run migration:run
 
-# test coverage
-$ npm run test:cov
+# Step 3 run app
+$ npm run run start:dev
 ```
 
 ## Support
