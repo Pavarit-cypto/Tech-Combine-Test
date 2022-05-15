@@ -48,13 +48,16 @@ $ npm run start:prod
 ## Set Up Step
 
 ```bash
-# Step 1 run docker compose
+# Step 1 install library
+$ npm install
+
+# Step 2 run docker compose
 $ docker compose up -d
 
-# Step 2 run migration file
+# Step 3 run migration file
 $ npm run migration:run
 
-# Step 3 run app
+# Step 4 run app
 $ npm run run start:dev
 ```
 
